@@ -4,7 +4,7 @@ using Ejemplo.Modelos;
 namespace Ejemplo{
     class Program {
         static void Main(string[] args){
-            /* Usuario _Usuario;
+            Usuario _Usuario;
             _Usuario = new Usuario();
             _Usuario.Nombre = "Alvaro";
             _Usuario.Edad = 22;
@@ -14,15 +14,15 @@ namespace Ejemplo{
             _Usuario.Contrasenia = "12345";
             _Usuario.Apellido = "Kú";
             Console.WriteLine(_Usuario.Info());
- */
-            /* Console.WriteLine("Ingrese su nombre: ");
+
+            Console.WriteLine("Ingrese su nombre: ");
             string Nombre = Console.ReadLine();
             Console.WriteLine("Ingrese su edad: ");
             int Edad = int.Parse(Console.ReadLine());
 
-            Usuario _Usuario1 = new Usuario(Nombre,"Kú",Edad,"alvaro123@gmail.com","12345");
+            Usuario _Usuario1 = new Usuario(Nombre,"Kú",Edad,"alvaro123@gmail.com","12345",null);
             Console.WriteLine(_Usuario1.Info());
- */
+
             Telefono[] Telefonos = new Telefono[]{
                 new Telefono{CodigoPais = 52,Numero = "9919596929"},
                 new Telefono{CodigoPais = 53,Numero = "9919596720"},
